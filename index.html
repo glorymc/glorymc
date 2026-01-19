@@ -3,35 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexus Client | The Future of PvP</title>
+    <title>GloryMC | The Ultimate PvP Experience</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="particles-js"></div>
 
     <nav class="navbar">
-        <div class="logo">NEXUS</div>
+        <div class="logo">GLORY<span>MC</span></div>
         <div class="nav-links">
             <a href="#features">Features</a>
-            <a href="https://github.com/yourlink" target="_blank">GitHub</a>
-            <a href="#" class="btn-download-sm">Download</a>
+            <a href="#">Discord</a>
+            <a href="#" class="btn-nav">Download Now</a>
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="hero-content">
-            <span class="badge">V2.0 RELEASED</span>
-            <h1>Dominate the <span class="gradient-text">Arena.</span></h1>
-            <p>Experience ultra-low latency, 300+ FPS boost, and a fully customizable HUD built for competitive play.</p>
+    <section class="hero">
+        <div class="hero-content" data-aos="zoom-out" data-aos-duration="1500">
+            <div class="glow-tag">POWERED BY NEXT-GEN OPTIMIZATION</div>
+            <h1>GLORY<span class="accent">MC</span></h1>
+            <p>Elevate your gameplay with the most advanced Minecraft PvP client. Built for performance, designed for champions.</p>
             <div class="hero-btns">
-                <a href="#" class="btn-primary">Download Installer</a>
-                <a href="https://github.com" class="btn-secondary">View Source</a>
+                <a href="#" class="btn-main">Get GloryMC</a>
+                <a href="#features" class="btn-outline">Explore Features</a>
             </div>
         </div>
-    </header>
+    </section>
+
+    <section id="features" class="features">
+        <h2 data-aos="fade-up">Premium Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon">🚀</div>
+                <h3>FPS Boost</h3>
+                <p>Advanced frame-rate optimization that doubles your performance on any hardware.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon">🛡️</div>
+                <h3>Anti-Cheat Ready</h3>
+                <p>Built-in ghost client detection bypass for the most popular competitive servers.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon">🎨</div>
+                <h3>Cosmetics</h3>
+                <p>High-quality capes, wings, and hats available to all GloryMC users for free.</p>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
