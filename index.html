@@ -3,55 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GloryMC | Next-Gen PvP</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>GloryMC | Redefining Competitive PvP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Syncopate:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div id="particles-js"></div>
-    <div class="cursor-glow"></div> <nav class="navbar">
+    <div class="cursor-glow"></div>
+
+    <nav class="navbar">
         <div class="logo">GLORY<span>MC</span></div>
         <div class="nav-links">
-            <a href="#features">Features</a>
-            <a href="#stats">Network</a>
-            <a href="#" class="btn-download-nav">GET CLIENT</a>
+            <a href="#features" class="btn-nav">FEATURES</a>
+            <a href="#stats" class="btn-nav">NETWORK</a>
+            <a href="https://github.com" target="_blank" class="btn-nav-github">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="git">
+                GITHUB
+            </a>
+            <a href="#" class="btn-cta">GET CLIENT</a>
         </div>
     </nav>
 
     <header class="hero">
-        <div class="hero-inner" data-aos="zoom-in">
-            <h2 class="top-heading">THE ULTIMATE FORGE</h2>
+        <div class="hero-inner" data-aos="zoom-out" data-aos-duration="1200">
+            <div class="glow-tag">EST. 2026 • HIGH PERFORMANCE</div>
             <h1 class="main-title">GLORY<span>MC</span></h1>
-            <p class="hero-subtext">Optimized for competitive combat. 0ms Input delay. Pure performance.</p>
+            <p class="hero-subtext">The elite Minecraft PvP client built for zero latency and maximum frames. Dominate every fight with precision.</p>
             <div class="cta-group">
-                <button class="btn-premium">DOWNLOAD NOW</button>
-                <button class="btn-ghost">DISCORD COMMUNITY</button>
+                <a href="#" class="btn-main">DOWNLOAD INSTALLER</a>
+                <a href="#" class="btn-secondary">JOIN DISCORD</a>
             </div>
         </div>
     </header>
 
     <section id="features" class="bento-container">
+        <h2 class="section-title" data-aos="fade-up">ENGINEERED FOR POWER</h2>
         <div class="bento-grid">
             <div class="bento-item tall" data-aos="fade-right">
-                <span>01</span>
-                <h3>FPS BOOST</h3>
-                <p>Custom engine patches that bypass Minecraft's rendering bottlenecks.</p>
+                <div class="bento-content">
+                    <span class="num">01</span>
+                    <h3>FPS BOOST</h3>
+                    <p>Proprietary rendering engine that bypasses standard Minecraft bottlenecks for up to 300% FPS increase.</p>
+                </div>
+                <div class="bento-glow"></div>
             </div>
             <div class="bento-item wide" data-aos="fade-down">
-                <span>02</span>
-                <h3>COSMETICS</h3>
-                <p>Unlock custom capes and wings visible to all GloryMC users.</p>
+                <span class="num">02</span>
+                <h3>EXCLUSIVE COSMETICS</h3>
+                <p>Premium wings, capes, and hats visible to all GloryMC users.</p>
             </div>
-            <div class="bento-item small" data-aos="fade-left">
-                <span>03</span>
+            <div class="bento-item" data-aos="fade-left">
+                <span class="num">03</span>
+                <h3>0ms INPUT</h3>
+                <p>Optimized polling rates for the fastest hit registration.</p>
+            </div>
+            <div class="bento-item" data-aos="fade-up">
+                <span class="num">04</span>
                 <h3>MODS</h3>
-                <p>50+ built-in PvP mods.</p>
-            </div>
-            <div class="bento-item small" data-aos="fade-up">
-                <span>04</span>
-                <h3>REACH</h3>
-                <p>Latency-optimized hit detection.</p>
+                <p>100+ fully customizable HUD mods.</p>
             </div>
         </div>
     </section>
