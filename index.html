@@ -3,52 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GloryMC | The Ultimate PvP Experience</title>
+    <title>GloryMC | Next-Gen PvP</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="particles-js"></div>
-
-    <nav class="navbar">
+    <div class="cursor-glow"></div> <nav class="navbar">
         <div class="logo">GLORY<span>MC</span></div>
         <div class="nav-links">
             <a href="#features">Features</a>
-            <a href="#">Discord</a>
-            <a href="#" class="btn-nav">Download Now</a>
+            <a href="#stats">Network</a>
+            <a href="#" class="btn-download-nav">GET CLIENT</a>
         </div>
     </nav>
 
-    <section class="hero">
-        <div class="hero-content" data-aos="zoom-out" data-aos-duration="1500">
-            <div class="glow-tag">POWERED BY NEXT-GEN OPTIMIZATION</div>
-            <h1>GLORY<span class="accent">MC</span></h1>
-            <p>Elevate your gameplay with the most advanced Minecraft PvP client. Built for performance, designed for champions.</p>
-            <div class="hero-btns">
-                <a href="#" class="btn-main">Get GloryMC</a>
-                <a href="#features" class="btn-outline">Explore Features</a>
+    <header class="hero">
+        <div class="hero-inner" data-aos="zoom-in">
+            <h2 class="top-heading">THE ULTIMATE FORGE</h2>
+            <h1 class="main-title">GLORY<span>MC</span></h1>
+            <p class="hero-subtext">Optimized for competitive combat. 0ms Input delay. Pure performance.</p>
+            <div class="cta-group">
+                <button class="btn-premium">DOWNLOAD NOW</button>
+                <button class="btn-ghost">DISCORD COMMUNITY</button>
             </div>
         </div>
-    </section>
+    </header>
 
-    <section id="features" class="features">
-        <h2 data-aos="fade-up">Premium Features</h2>
-        <div class="feature-grid">
-            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="icon">🚀</div>
-                <h3>FPS Boost</h3>
-                <p>Advanced frame-rate optimization that doubles your performance on any hardware.</p>
+    <section id="features" class="bento-container">
+        <div class="bento-grid">
+            <div class="bento-item tall" data-aos="fade-right">
+                <span>01</span>
+                <h3>FPS BOOST</h3>
+                <p>Custom engine patches that bypass Minecraft's rendering bottlenecks.</p>
             </div>
-            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon">🛡️</div>
-                <h3>Anti-Cheat Ready</h3>
-                <p>Built-in ghost client detection bypass for the most popular competitive servers.</p>
+            <div class="bento-item wide" data-aos="fade-down">
+                <span>02</span>
+                <h3>COSMETICS</h3>
+                <p>Unlock custom capes and wings visible to all GloryMC users.</p>
             </div>
-            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon">🎨</div>
-                <h3>Cosmetics</h3>
-                <p>High-quality capes, wings, and hats available to all GloryMC users for free.</p>
+            <div class="bento-item small" data-aos="fade-left">
+                <span>03</span>
+                <h3>MODS</h3>
+                <p>50+ built-in PvP mods.</p>
+            </div>
+            <div class="bento-item small" data-aos="fade-up">
+                <span>04</span>
+                <h3>REACH</h3>
+                <p>Latency-optimized hit detection.</p>
             </div>
         </div>
     </section>
